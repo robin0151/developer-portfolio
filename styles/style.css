@@ -5,6 +5,8 @@
 
 .text-primary {
   color: #fd6e0a;
+  border-bottom: 3px solid #fd6e0a;
+  border-radius: 50px;
 }
 
 .btn-primary {
@@ -41,12 +43,13 @@
 .nav-title {
   font-weight: 800;
   font-size: 45px;
+
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 
 nav li {
@@ -75,9 +78,10 @@ nav ul {
 }
 
 .banner-title {
-  font-size: 85px;
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: 20px;
+
 }
 
 .banner-description {
@@ -149,7 +153,8 @@ main {
   display: flex;
   gap: 20px;
 }
-.section-title{
+
+.section-title {
   font-size: 35px;
   font-weight: 700;
   text-align: center;
@@ -184,13 +189,90 @@ main {
 
 /* resume style */
 
-.section-title{
+.section-title {
   margin-top: 130px;
-  margin-bottom: 113px;
+
 }
 
 
 .resume-content {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
+  margin-top: 113px;
+}
+
+.resume-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  border-left: 5px solid #fd6e0a;
+  border-radius: 3px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.resume-button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* contact styles */
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background: #FFF8F3;
+  padding: 130px 200px;
+  margin-top: 110px;
+}
+
+.footer-title {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.footer-description {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact a,
+img {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.contact input,
+textarea {
+  margin-bottom: 24px;
+  border-style: none;
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+input {
+  height: 20px;
 }
